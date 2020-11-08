@@ -4,7 +4,7 @@ package com.company.visitor;
  * Допустим какой-то класс который описывает различные
  * возможные шаги исполнения алгоритма
  */
-public class ScenarioTemplate implements ScenarioAcceptable {
+public class ScenarioSource implements ScenarioAcceptable {
 
     public void step1() {
         System.out.println("Step 1");
